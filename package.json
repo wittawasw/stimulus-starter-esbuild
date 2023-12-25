@@ -1,0 +1,21 @@
+{
+  "name": "stimulus-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --env-file=.env serve.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node --env-file=.env  esbuild.config.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chokidar": "^3.5.3",
+    "esbuild": "^0.19.10",
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "@hotwired/stimulus": "^3.2.2"
+  }
+}
