@@ -9,6 +9,8 @@ A simple structure for hands-on experience with StimulusJS. Install following th
 - Add HTML to `index.html`.
 - Add JavaScript to `src/javascripts`.
 - Run `npm run dev` for the development server.
+  ```shell
   # Specify PORT in .env for a custom development port
   PORT=4000
+  ```
 - Run `npm run build` to manually trigger the build process.
